@@ -1,0 +1,169 @@
+
+/* Start Global */
+ *
+ {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+/* End Global */ 
+
+/* Start Header */
+.main 
+{
+	font-family: Segoe Print ;
+	padding: 30px 70px;
+	font-size: 20px
+}
+
+span { color: #4195ce; }
+
+#memostra { font-size: 50px ; color: #649a51; }
+
+#add_info 
+{
+	float: right;
+	margin-top: -40px;
+	color: #b8b6b6 ;
+}
+
+#add_mail
+{
+	float: right;
+	color: #86ac75 ;
+	margin-top: -15px;
+}
+/* End Header */ 
+
+/* Start Navigation bar */ 
+ul {
+    list-style-type: none;
+    margin: 0px 70px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e8cc9;
+    font-family: Arial ;
+    font-weight: bold;
+
+}
+
+li {
+    float: left;
+}
+
+li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 25px
+
+}
+
+.active {
+    background-color: #0050ff;
+}
+
+.image_div
+{
+	width: 25px;
+	height: 25px;
+	color: white;
+}
+.min
+{
+	width: 25px;
+	height: 25px;
+	margin: 12px 40px;
+ }
+/* End Navigation bar */
+
+
+/* Start The Welcome Image */
+.welcome_img
+{
+	padding: 20px 70px ;
+	width: 90%;
+
+}
+
+/* End The Welcome Image */
+
+/* Start Category Section */
+.Cat_men_women
+{
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+	font-family: Arial;
+	
+}
+.category
+{
+	width: 150px;
+	height: 20px;
+	margin: 10px -60px 10px 70px;
+	background-color: #dfeef7;
+	color: #136392;	
+	float: left;
+}
+.men
+{
+	width: 70px;
+	height: 20px;
+	margin: 10px -60px 10px 70px;
+	background-color: #ededed;
+	color: #a2a2a2;	
+	float: left;
+}
+.women
+{
+	width: 90px;
+	height: 20px;
+	margin: 10px 70px;
+	background-color: #ededed;
+	color: #a2a2a2;	
+	float: left;
+}
+.browse
+{
+	width: 220px;
+	height: 10px;
+	margin: 10px -60px 10px 350px;
+	border: 5px solid #c5debb;
+	outline: 2px solid #accc9e;
+	color: #aeaeae;
+	font-family:'digital-clock-font';
+	text-align: justify;
+	float: left;
+}
+.search
+{
+	width: 90px;
+	height: 20px;
+	margin: 10px -60px 10px 70px;
+	background-color: #accc9e;
+	color: #6e895c;
+	font-style: bold;
+	font-family: 'Arial Rounded MT Bold' ;
+	float: left;
+}
+
+/* End Category Section */
+
+/* Start Line Section break */
+
+.line 
+{
+    width:100%;
+}
+hr
+{
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 3px;
+    float: none;
+}
+
+/* End Line Section break */

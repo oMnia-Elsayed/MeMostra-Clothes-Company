@@ -3,10 +3,12 @@
  *
  {
  	padding: 0;
- 	margin: 0;
+ 	margin: 0;	
  }
 
 /* End Global */ 
+ 
+/* //////////////////////////////////////////////// */
 
 /* Start Header */
 .main 
@@ -35,6 +37,9 @@ span { color: #4195ce; }
 }
 /* End Header */ 
 
+/* //////////////////////////////////////////////// */
+
+
 /* Start Navigation bar */ 
 ul {
     list-style-type: none;
@@ -44,27 +49,20 @@ ul {
     background-color: #1e8cc9;
     font-family: Arial ;
     font-weight: bold;
-
 }
-
-li {
-    float: left;
-}
-
+li{ float: left; }
 li  {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 18px;
+    padding: 14px 25px;
     text-decoration: none;
     font-size: 25px
-
 }
-
-.active {
+.active 
+{
     background-color: #0050ff;
 }
-
 .image_div
 {
 	width: 25px;
@@ -75,29 +73,35 @@ li  {
 {
 	width: 25px;
 	height: 25px;
-	margin: 12px 40px;
+	margin: 12px 10px;
+	float: right;
+	border: 4px solid #7bc6ee;
+	border-radius: 20%;
  }
 /* End Navigation bar */
+
+/* //////////////////////////////////////////////// */
 
 
 /* Start The Welcome Image */
 .welcome_img
 {
-	padding: 20px 70px ;
+	padding: 20px 67px ;
 	width: 90%;
-
 }
 
 /* End The Welcome Image */
+
+/* //////////////////////////////////////////////// */
+
 
 /* Start Category Section */
 .Cat_men_women
 {
 	text-align: center;
-	padding: 15px;
+	padding: 15px 11px 15px 15px;
 	font-size: 20px;
 	font-family: Arial;
-	
 }
 .category
 {
@@ -107,6 +111,7 @@ li  {
 	background-color: #dfeef7;
 	color: #136392;	
 	float: left;
+	outline: 2px solid #ededed;
 }
 .men
 {
@@ -116,6 +121,7 @@ li  {
 	background-color: #ededed;
 	color: #a2a2a2;	
 	float: left;
+	border: 2px solid #DDD;
 }
 .women
 {
@@ -125,6 +131,7 @@ li  {
 	background-color: #ededed;
 	color: #a2a2a2;	
 	float: left;
+	border: 2px solid #DDD;
 }
 .browse
 {
@@ -135,7 +142,7 @@ li  {
 	outline: 2px solid #accc9e;
 	color: #aeaeae;
 	font-family:'digital-clock-font';
-	text-align: justify;
+	text-align: left;
 	float: left;
 }
 .search
@@ -152,6 +159,9 @@ li  {
 
 /* End Category Section */
 
+/* //////////////////////////////////////////////// */
+
+
 /* Start Line Section break */
 
 .line 
@@ -160,10 +170,179 @@ li  {
 }
 hr
 {
-    color: #7d97ad;
-    background-color: #7d97ad;
-    height: 3px;
-    float: none;
+    color: #c5debb;
+    height: 0.05px;
+    margin: 10px 67px 10px 70px;
 }
 
 /* End Line Section break */
+
+/* //////////////////////////////////////////////// */
+
+
+/* Start Clothes Image Section */
+.clear
+{
+	clear: both;
+}
+
+.general
+{
+    	display : flex;
+}
+
+.handle_cloth
+{
+	float: left;
+	color: #1e8cc9 ;
+	font-family: Arial;
+	width: 30%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.right
+{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 20px 0;
+}
+div.cotain_photo
+{
+	width: 320px;
+	border: 10px solid #c5debb;
+	margin: 10px;
+}
+div.cotain_photo img 
+{
+	width: 100%;
+	height: auto;
+}
+.handle
+{
+	padding:  20px 20px 20px 60px; 
+}
+h3 { margin: 0 18px;  }
+
+.price
+{
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	color: #444444;	
+	font-size: 20px;
+}
+.code
+{
+	float: right;
+	margin-right: 45px;
+	color: #444444;	
+	font-size: 20px;
+}
+.green{ color: #70a564; }
+.gray{color: #757575; }
+
+/* End Clothes Images Section */ 
+
+/* //////////////////////////////////////////////// */
+
+/* Start The Previous and Next Section */
+.pre_next
+{
+	height: 100px;
+	background-color:  #c5debb; 
+	margin: 10px 67px 10px 70px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+}
+.pre
+{
+	width: 100px;
+	height: 50px;
+	background-color: #a5bfcf;
+	float: left;
+	margin: 25px;
+}
+
+.next
+{
+	width: 100px;
+	height: 50px;
+	background-color: #218cc8;
+	margin: 25px;
+	float: right;	
+}
+.num 
+{
+	width:50%;
+	display: inline;
+}
+.one
+{ 
+	float: left; 
+	width: 60px; 
+	height:50px;
+	background-color: #115c87; 
+	margin: -75px 0px 10px 500px;
+}
+.three
+{
+	float: right;
+	width: 60px;
+	height:50px;
+	background-color: #218cc8; 
+	margin: -75px 500px 10px 0px;
+}
+.two
+{
+	margin: -75px auto; 
+	width: 60px;
+	height:50px;
+	background-color: #218cc8; 
+}
+
+/* End The Previous and Next Section */
+
+/* //////////////////////////////////////////////// */
+
+/* Start Footer */
+footer
+{
+	padding: 10px 67px 10px 70px;
+	font-family: Calibri Light;
+	color: #6d9295;
+}
+
+.left 
+{
+	float: left;
+
+}
+.f_right
+{
+	float:right;
+}
+/* End Footer */

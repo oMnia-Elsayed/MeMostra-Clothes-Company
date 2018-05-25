@@ -25,7 +25,7 @@ span { color: #4195ce; }
 #add_info 
 {
 	float: right;
-	margin-top: -40px;
+	margin-top: -60px;
 	color: #b8b6b6 ;
 }
 
@@ -33,7 +33,7 @@ span { color: #4195ce; }
 {
 	float: right;
 	color: #86ac75 ;
-	margin-top: -15px;
+	margin-top: -25px;
 }
 /* End Header */ 
 
@@ -59,10 +59,7 @@ li  {
     text-decoration: none;
     font-size: 25px
 }
-.active 
-{
-    background-color: #0050ff;
-}
+li:hover { background-color: #9dbfd4; } 
 .image_div
 {
 	width: 25px;
@@ -88,6 +85,21 @@ li  {
 {
 	padding: 20px 67px ;
 	width: 90%;
+	position: relative;
+}
+.button
+{
+	width: 183px;
+	height: 50px;
+	position: absolute;
+	background-color: #f28220;
+	text-align: center;
+	color: #edf0f5;
+	left: 79%;
+	top: 55%;
+	font-family: Arial ;
+	line-height: 50px;
+
 }
 
 /* End The Welcome Image */
@@ -112,6 +124,7 @@ li  {
 	color: #136392;	
 	float: left;
 	outline: 2px solid #ededed;
+	line-height: 20px;
 }
 .men
 {
@@ -122,6 +135,7 @@ li  {
 	color: #a2a2a2;	
 	float: left;
 	border: 2px solid #DDD;
+	line-height: 20px;
 }
 .women
 {
@@ -132,6 +146,7 @@ li  {
 	color: #a2a2a2;	
 	float: left;
 	border: 2px solid #DDD;
+	line-height: 20px;
 }
 .browse
 {
@@ -141,9 +156,10 @@ li  {
 	border: 5px solid #c5debb;
 	outline: 2px solid #accc9e;
 	color: #aeaeae;
-	font-family:'digital-clock-font';
+	font-family:'Arial Rounded MT Bold';
 	text-align: left;
 	float: left;
+	line-height: 10px;
 }
 .search
 {
@@ -155,6 +171,7 @@ li  {
 	font-style: bold;
 	font-family: 'Arial Rounded MT Bold' ;
 	float: left;
+	line-height: 20px;
 }
 
 /* End Category Section */
@@ -197,30 +214,6 @@ hr
 	color: #1e8cc9 ;
 	font-family: Arial;
 	width: 30%;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 .right
 {
@@ -280,20 +273,22 @@ h3 { margin: 0 18px;  }
 }
 .pre
 {
-	width: 100px;
+	width: 110px;
 	height: 50px;
 	background-color: #a5bfcf;
 	float: left;
 	margin: 25px;
+	line-height: 50px;
 }
 
 .next
 {
-	width: 100px;
+	width: 110px;
 	height: 50px;
 	background-color: #218cc8;
 	margin: 25px;
 	float: right;	
+	line-height: 50px;
 }
 .num 
 {
@@ -307,6 +302,7 @@ h3 { margin: 0 18px;  }
 	height:50px;
 	background-color: #115c87; 
 	margin: -75px 0px 10px 500px;
+	line-height: 50px;
 }
 .three
 {
@@ -315,6 +311,7 @@ h3 { margin: 0 18px;  }
 	height:50px;
 	background-color: #218cc8; 
 	margin: -75px 500px 10px 0px;
+	line-height: 50px;
 }
 .two
 {
@@ -322,6 +319,7 @@ h3 { margin: 0 18px;  }
 	width: 60px;
 	height:50px;
 	background-color: #218cc8; 
+	line-height: 50px;
 }
 
 /* End The Previous and Next Section */
@@ -336,13 +334,25 @@ footer
 	color: #6d9295;
 }
 
-.left 
-{
-	float: left;
-
-}
-.f_right
-{
-	float:right;
-}
+.left { float: left; }
+.f_right { float:right; }
 /* End Footer */
+
+/* Hover Section */ 
+#memostra:hover , #add_info:hover , #add_mail:hover , .left:hover , .f_right:hover
+{ text-shadow: 1px 1px; }
+
+.min:hover , .button:hover , .one:hover , .two:hover , .three:hover 
+{
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.Cat_men_women:hover , .handle_cloth:hover , .pre:hover , .next:hover
+{
+	-ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9);
+}
+/*  /////////////////////////// */ 
